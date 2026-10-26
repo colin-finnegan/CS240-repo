@@ -1,0 +1,84 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "ExpressionDriver",
+        "request": "launch",
+        "mainClass": "labs.expression.ExpressionDriver",
+        "projectName": "CS240_F24_c5395d4f"
+      },
+      {
+        "type": "java",
+        "name": "ProfileDriver",
+        "request": "launch",
+        "mainClass": "pas.sorting.ProfileDriver",
+        "projectName": "CS240_F24_c5395d4f"
+      },
+      {
+        "type": "java",
+        "name": "SortProfiler",
+        "request": "launch",
+        "mainClass": "pas.sorting.SortProfiler",
+        "projectName": "CS240_F24_c5395d4f"
+      },
+      {
+        "type": "java",
+        "name": "MSITest",
+        "request": "launch",
+        "mainClass": "pas.sorting.MSITest",
+        "projectName": "CS240_F24_c5395d4f"
+      },
+      {
+        "type": "java",
+        "name": "Box",
+        "request": "launch",
+        "mainClass": "labs.recursion.Box",
+        "projectName": "CS240_F24_c5395d4f"
+      },
+      {
+        "type": "java",
+        "name": "Pascal",
+        "request": "launch",
+        "mainClass": "labs.recursion.Pascal",
+        "projectName": "CS240_F24_c5395d4f"
+      },
+      {
+        "type": "java",
+        "name": "Collatz",
+        "request": "launch",
+        "mainClass": "labs.recursion.Collatz",
+        "projectName": "CS240_F24_c5395d4f"
+      },
+      {
+        "type": "java",
+        "name": "ArrayGrid",
+        "request": "launch",
+        "mainClass": "pas.grid.ArrayGrid",
+        "projectName": "CS240_F24_c5395d4f"
+      },
+      {
+        "type": "java",
+        "name": "Counting",
+        "request": "launch",
+        "mainClass": "labs.counting.Counting",
+        "projectName": "CS240_F24_c5395d4f"
+      },
+      {
+        "type": "java",
+        "name": "Current File",
+        "request": "launch",
+        "mainClass": "${file}",
+        "shortenCommandLine": "none",
+        "stepFilters": {
+          "skipClasses": [
+            "$JDK",
+            "$Libraries"
+          ],
+          "skipSynthetics": false,
+          "skipStaticInitializers": false,
+          "skipConstructors": false
+        }
+      }
+    ]
+}
